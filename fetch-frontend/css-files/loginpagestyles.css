@@ -1,0 +1,127 @@
+.heaad{
+    color:black;
+    font-weight:600;
+    text-align: center;
+    font-size:xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+.welcome{
+    top:0;
+    position:-webkit-sticky;
+    position:sticky;
+    color:black;
+    font-weight:600;
+    text-align: left;
+    font-size:xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+.bodystyle{
+    background-size: 100px 100px;
+    background-color:#bccfe6;
+    height: 200px;
+}
+
+.emailpass{
+    color:black;
+    text-align:left;
+    font-weight:600;
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+.football{
+    color:black;
+    text-align: center;
+    font-size:x-large;
+
+}
+
+.pushright{
+    text-align: right;
+}
+
+.img{
+    vertical-align: center;
+}
+
+.paragraph{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.imgspace{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.volleyball{
+    color:black;
+    text-align: center;
+    font-size:x-large;
+}
+
+.maincol{
+    background: azure;
+    padding: 40px;
+    min-height: 330px;
+    box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
+}
+
+.button{
+    border:none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: rgb(255, 255, 255); 
+    color: black; 
+    border: #bccfe6;
+  }
+
+.button1:hover {
+    background-color: #bccfe6;
+    color: black;
+}
+
+.bodyclass{
+    background-color: #bccfe6 ;
+
+}
+
+.password-container{
+    width: 400px;
+    position: relative;
+}
+
+.password-container input[type="password"],
+.password-container input[type="text"]{
+    width:100%;
+    padding:12px 36px 12px 12px;
+    box-sizing: border-box;
+}
+
+.fa-eye{
+    position:absolute;
+    top:28%;
+    right:4%;
+    cursor:pointer;
+    color:lightgray;
+}

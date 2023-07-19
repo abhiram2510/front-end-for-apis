@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetching API's and working on them</title>
+    <script>
+      async function getUsers() {
+        let res= await fetch("http://localhost:3000/employees");
+        let users= await res.json();
+        console.log(users);
+      }
+
+      async function onShowEmployeesClick(){
+        let employees=await getUsers();
+        console.log(employees);
+        console.log("inside the function");
+      }
+    </script>
+  </head>
+  <body>
+    <button id="show_employees" onclick="getUsers()">
+      Show Employees
+    </button>
+    <span id="view_employees"> </span>
+  </body>
+</html>
